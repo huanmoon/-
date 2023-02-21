@@ -1,0 +1,43 @@
+html{
+    background-color: rgb(190, 239, 255);
+}
+
+.box1{
+    color:rgb(1, 76, 76);
+    width: 40%;
+    height: 100%;
+    transform:skew(-10deg);
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -o-transform:skew(-10deg);
+    -ms-transform:skew(-10deg);
+    background-color:rgb(32, 197, 164);
+    border-radius: 1.5rem;
+    margin:150px auto;
+    box-shadow:0 0 1rem 0.2rem rgb(0, 251, 255);
+    text-align: center;
+}
+
+.type{
+    outline: none;
+    width: 60%;
+    height: 20px;
+    color: rgb(42, 243, 219)
+}
+
+.submit{
+    cursor: pointer;
+    overflow: hidden;
+    width: 50%;
+    height: 30px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:rgb(1, 76, 76);
+    background-color: rgb(32, 197, 164);
+}
+
+.submit:hover{
+    border-bottom:none;
+}
